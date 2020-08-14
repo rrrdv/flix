@@ -1,0 +1,19 @@
+{
+  "name": "flix",
+  "version": "1.0.0",
+  "description": "== Change Log ==",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-image": "^4.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
