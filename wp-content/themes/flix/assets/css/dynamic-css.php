@@ -1041,6 +1041,10 @@ li.bypostauthor > .comment-body,
     }
 <?php endif; ?>
 
+.vlog-featured-wrapper-6::before {
+	background: <?php echo $color_header_bottom_bg; ?>;
+}
+
 /********************************************************************************/
 /* WooCommerce classes */
 /********************************************************************************/

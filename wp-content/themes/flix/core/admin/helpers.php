@@ -145,7 +145,7 @@ if ( !function_exists( 'vlog_get_featured_layouts' ) ):
 		$layouts['3'] = array( 'title' => esc_html__( 'Layout 3', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa3.png');
 		$layouts['4'] = array( 'title' => esc_html__( 'Layout 4', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa4.png');
 		$layouts['5'] = array( 'title' => esc_html__( 'Layout 5', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa5.png');
-		$layouts['6'] = array( 'title' => esc_html__( 'Layout 6', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa4.png');
+		$layouts['6'] = array( 'title' => esc_html__( 'Layout 6', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa6.png');
 		$layouts['custom'] = array( 'title' => esc_html__( 'Custom Content', 'vlog' ), 'img' => get_template_directory_uri() . '/assets/img/admin/layout_fa_custom.png');
 
 		if( !empty( $exclude ) ){
