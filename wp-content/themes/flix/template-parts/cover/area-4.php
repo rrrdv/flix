@@ -12,7 +12,7 @@
       <a class="fa-item-image" href="<?php echo esc_url( get_permalink() ); ?>" title="<?php echo esc_attr( get_the_title() ); ?>">
       	 <?php echo vlog_get_featured_image('vlog-cover-large', false, false, true ); ?>
 		 <?php if( vlog_get_option('cover_display_play_icon')) { ?>
-			 <span class="vlog-format-action large"><i class="fa fa-play"></i></span>
+			<?php get_template_part('template-parts/play-icon'); ?>
 		 <?php } ?>
       </a>
 		<?php if( has_tag() ) { ?>

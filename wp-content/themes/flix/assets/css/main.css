@@ -244,6 +244,8 @@ div.row-eq-height:after {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-left: -45px;
+  margin-top: -45px;
   text-align: center;
   line-height: 1;
   outline: 0;
@@ -252,10 +254,13 @@ div.row-eq-height:after {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   z-index: 5;
-  border: 2px solid #FFF;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
   cursor: pointer;
+  background: transparent;
+}
+.vlog-format-action.icon-one {
+    border: 2px solid #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
 }
 .vlog-format-action i,
 .vlog-icon i {
@@ -264,7 +269,9 @@ div.row-eq-height:after {
   z-index: 2;
   position: relative;
 }
-.vlog-format-action.large {
+.vlog-featured-4 .vlog-format-action,
+.vlog-featured-6 .vlog-format-action,
+.vlog-cover .vlog-format-action, {
   height: 90px;
   width: 90px;
   margin-left: -45px;
@@ -707,8 +714,8 @@ div.row-eq-height:after {
   -webkit-animation: pulseicon 0.7s alternate ease-in-out infinite;
   animation: pulseicon 0.7s alternate ease-in-out infinite;
 }
-.vlog-cover:hover .vlog-format-action,
-.vlog-cover .vlog-format-action:hover {
+.vlog-cover:hover .vlog-format-action.icon-one,
+.vlog-cover .vlog-format-action.icon-one:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 .entry-image:hover .vlog-format-label,
