@@ -1491,6 +1491,38 @@ Redux::setSection($opt_name, array(
     )
 );
 
+/* FA Layout 7 */
+Redux::setSection($opt_name, array(
+        'icon' => '',
+        'title' => esc_html__('Layout 7', 'vlog'),
+        'heading' => false,
+        'subsection' => true,
+        'fields' => array(
+            array(
+                'id' => 'section_layout_fa7',
+                'type' => 'section',
+                'title' => '<img src="'.esc_url(get_template_directory_uri().'/assets/img/admin/layout_fa7.png').'"/>'.esc_html__('Layout 7', 'vlog'),
+                'subtitle' => esc_html__('Manage options for cover Layout 7', 'vlog'),
+                'indent' => false
+            ),
+            array(
+                'id' => 'lay_fa7_cat',
+                'type' => 'switch',
+                'title' => esc_html__('Display category', 'vlog'),
+                'default' => false
+            ),
+            array(
+                'id' => 'lay_fa7_meta',
+                'type' => 'sortable',
+                'mode' => 'checkbox',
+                'title' => esc_html__('Meta data', 'vlog'),
+                'options' => vlog_get_meta_opts(),
+                'default' => vlog_get_meta_opts( array('date') )
+            ),
+        )
+    )
+);
+
 /* Layout settings */
 Redux::setSection($opt_name, array(
         'icon' => 'el-icon-th-large',

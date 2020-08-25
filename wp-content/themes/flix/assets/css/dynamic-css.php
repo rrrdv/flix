@@ -749,6 +749,13 @@ a.page-numbers:hover,
 	background: <?php echo vlog_hex2rgba($background_slider_l5, 0.75); ?>
 }
 
+.vlog-featured-7 .entry-header .entry-title a {
+	background-color: <?php echo $color_header_txt; ?>;
+    color: <?php echo $color_header_bg ?>;
+}
+.vlog-featured-7 .entry-header .entry-category a {
+	background-color: <?php echo $color_content_videos_label; ?>;
+}
 
 
 /********************************************************************************/

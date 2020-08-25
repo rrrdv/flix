@@ -117,7 +117,7 @@
 // }
 
 /* Define Theme Vars */
-define('VLOG_THEME_VERSION', '3.5.8');
+define('VLOG_THEME_VERSION', '3.5.9');
 
 /* Define content width */
 if (!isset($content_width)) {

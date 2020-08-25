@@ -8254,3 +8254,120 @@ All this is done for any sub-level being entered.
 .ctcc-more-info-link {
     text-decoration: underline;
 }
+
+/********** COVER AREA 7 **********/
+.vlog-featured-7 {
+    position: relative;
+}
+.vlog-featured-7 .vlog-cover-bg {
+    background: transparent;
+}
+.vlog-featured-7 .vlog-cover-bg a img {
+    max-width: 1104px;
+    height: auto;
+}
+.vlog-featured-7 .vlog-featured-info-bg {
+    background-color: rgba(39, 39, 39, 0.9);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 40%;
+    padding: 30px 20px;
+}
+.vlog-featured-7 .vlog-featured-info {
+    min-height: 20px;
+    margin-top: 0;
+    position: absolute;
+}
+.vlog-featured-info-7 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1000;
+    width: 450px;
+    transform: translateY(-50%);
+}
+.vlog-featured-7 .vlog-cover-bg {
+    text-align: left;
+}
+.vlog-featured-7 .overlay-home {
+    width: 80%;
+    position: relative;
+    z-index: 10;
+}
+.vlog-featured-7 .entry-header .entry-title {
+    margin: 10px 0;
+}
+.vlog-featured-7 .entry-header .entry-title a {
+    display: inline;
+    padding: 0.25rem;
+    line-height: 1.7;
+}
+.vlog-featured-7 .entry-header .entry-category {
+    position: relative;
+    margin-bottom: 20px;
+}
+.vlog-featured-7 .entry-header .entry-category a {
+    font-size: 10px;
+    color: #fff;
+    display: inline;
+    padding: 0.25rem;
+    line-height: 1.7;
+}
+.vlog-featured-7 .entry-header .entry-meta {
+    float: right;
+    margin-right: 25%;
+}
+.vlog-featured-7 .owl-controls .owl-prev,
+.vlog-featured-7 .owl-controls .owl-next {
+    padding: 5px;
+    margin-right: 5px;
+}
+.vlog-featured-7.owl-carousel .owl-controls .owl-nav .owl-prev,
+.vlog-featured-7.owl-carousel .owl-controls .owl-nav .owl-next,
+.vlog-featured-7.owl-carousel .owl-controls .owl-dot {
+    display: inline;
+}
+.vlog-featured-7.vlog-featured-slider .owl-next,
+.vlog-featured-7.vlog-featured-slider .owl-prev {
+    position: inherit;
+    top: auto;
+    left: auto;
+    font-size: 25px;
+    background: #000;
+    padding: 5px 10px;
+    opacity: 1;
+}
+.vlog-featured-7.vlog-featured-slider .owl-prev .fa-angle-left::before {
+    content: "\f060";
+}
+.vlog-featured-7.vlog-featured-slider .owl-next .fa-angle-right::before {
+    content: "\f061";
+}
+
+@media (max-width: 767px) {
+    .vlog-featured-7 .vlog-cover-bg {
+        height: 270px;
+        margin: 0;
+    }
+    .vlog-featured-7 .vlog-featured-info-bg {
+        position: initial;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .vlog-featured-7 .entry-header .entry-title {
+        margin: 0;
+    }
+    .vlog-featured-7 .entry-header .entry-title a {
+        line-height: 1.6;
+        font-size: 1.9rem;
+    }
+    .vlog-featured-7 .owl-controls {
+        display: none;
+    }
+    .vlog-featured-7 .entry-header {
+        text-align: left;
+    }
+}

@@ -228,6 +228,7 @@
                 }
             }
         });
+        $(".owl-controls").appendTo(".vlog-featured-info-7 .entry-header");
 
         /* Module slider */
 
@@ -1105,7 +1106,7 @@
 
             }
         });
-        
+
         $(window).on('load',function(){
             $('.modal').fadeIn();
         });
