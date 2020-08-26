@@ -11,7 +11,7 @@ $format = vlog_get_post_format(true);
 						<?php get_template_part('template-parts/formats/'.vlog_get_post_format(true).'-cover'); ?>
 					</div>
 					<?php if( vlog_get_option('cover_display_play_icon')) { ?>
-						<span class="vlog-format-action large"><img src="<?php echo get_template_directory_uri().'/assets/img/play.svg' ?>"</span>
+						<span class="vlog-format-action large"><img src="<?php echo get_template_directory_uri().'/assets/img/play.svg' ?>" /></span>
 					<?php } ?>
 					<div class="vlog-featured-info-6 text-center container vlog-pe-n vlog-active-hover vlog-f-hide">
 						<div class="vlog-fa-item">

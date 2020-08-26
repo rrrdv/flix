@@ -4690,7 +4690,7 @@ body .widget .mejs-container .mejs-controls .mejs-button button {
     border: none;
 }
 .vlog-featured-6 .vlog-cover-bg {
-    height: auto;
+    height: 190px;
 }
 .vlog-featured-6 .vlog-cover-bg a img {
     max-width: 1140px;
@@ -4745,6 +4745,34 @@ body .widget .mejs-container .mejs-controls .mejs-button button {
   right: -35px;
 }
 
+@media (max-width: 767px) {
+    .vlog-featured-6 .vlog-format-action img {
+
+    }
+    .vlog-featured-info-6 {
+        width: 100%;
+        top: auto;
+        bottom: 0;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 100;
+    }
+    .vlog-featured-info-6 .vlog-fa-item {
+        width: 100%;
+    }
+    .vlog-featured-info-6 .entry-category a,
+    .vlog-featured-info-6 .meta-item,
+    .vlog-featured-info-6 .meta-icon,
+    .vlog-featured-info-6 .entry-meta .meta-item::after {
+        font-size: 9px;
+    }
+    .vlog-featured-info-6 .h1 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+}
 /* Featured area custom*/
 .vlog-featured-info-custom {
   max-width: 100%;
