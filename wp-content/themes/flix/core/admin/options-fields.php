@@ -500,8 +500,8 @@ Redux::setSection($opt_name, array(
                 'title' => esc_html__('Play icon', 'vlog'),
                 'subtitle' => esc_html__('Choose a Play icon for your site', 'vlog'),
                 'options' => array(
-                    1 => array('title' => esc_html__('Play icon 1', 'vlog'), 'img' =>  get_template_directory_uri().'/assets/img/admin/header_layout_1.png'),
-                    2 => array('title' => esc_html__('Play icon 2', 'vlog'), 'img' =>  get_template_directory_uri().'/assets/img/admin/header_layout_2.png')
+                    1 => array('title' => esc_html__('Play icon 1', 'vlog'), 'img' =>  get_template_directory_uri().'/assets/img/admin/play_2.png'),
+                    2 => array('title' => esc_html__('Play icon 2', 'vlog'), 'img' =>  get_template_directory_uri().'/assets/img/admin/play_4.png')
                 ),
                 'default' => 1,
             ),
