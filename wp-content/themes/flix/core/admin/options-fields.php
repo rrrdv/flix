@@ -1490,6 +1490,46 @@ Redux::setSection($opt_name, array(
         )
     )
 );
+/* FA Layout 1 */
+Redux::setSection($opt_name, array(
+        'icon' => '',
+        'title' => esc_html__('Layout 6', 'vlog'),
+        'heading' => false,
+        'subsection' => true,
+        'fields' => array(
+            array(
+                'id' => 'section_layout_fa6',
+                'type' => 'section',
+                'title' => '<img src="'.esc_url(get_template_directory_uri().'/assets/img/admin/layout_fa6.png').'"/>'.esc_html__('Layout 6', 'vlog'),
+                'subtitle' => esc_html__('Manage options for cover Layout 6', 'vlog'),
+                'indent' => false
+            ),
+            array(
+                'id' => 'lay_fa6_cat',
+                'type' => 'switch',
+                'title' => esc_html__('Display category', 'vlog'),
+                'default' => true
+            ),
+            array(
+                'id' => 'lay_fa6_meta',
+                'type' => 'sortable',
+                'mode' => 'checkbox',
+                'title' => esc_html__('Meta data', 'vlog'),
+                'options' => vlog_get_meta_opts(),
+                'default' => vlog_get_meta_opts( array('author', 'date') )
+            ),
+            array(
+                'id' => 'lay_fa6_actions',
+                'type' => 'sortable',
+                'mode' => 'checkbox',
+                'title' => esc_html__('Actions', 'vlog'),
+                'desc' => esc_html__('Note: Watch later and Cinema mode are available for video post format only, and Listen later is available for audio post format only.', 'vlog'),
+                'options' => vlog_get_action_opts(),
+                'default' => vlog_get_action_opts( array('comments', 'watch-later', 'listen-later', 'cinema-mode') )
+            ),
+        )
+    )
+);
 
 /* FA Layout 7 */
 Redux::setSection($opt_name, array(
