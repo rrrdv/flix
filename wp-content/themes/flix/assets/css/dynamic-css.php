@@ -1041,6 +1041,9 @@ li.bypostauthor > .comment-body,
     }
 <?php endif; ?>
 
+<?php $header_layout = vlog_get_option('header_layout');
+	var_dump($header_layout);
+?>
 .vlog-featured-wrapper-6::before {
 	background: <?php echo $color_header_bottom_bg; ?>;
 }

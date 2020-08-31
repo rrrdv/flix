@@ -4689,9 +4689,6 @@ body .widget .mejs-container .mejs-controls .mejs-button button {
     background: none;
     border: none;
 }
-.vlog-featured-6 .vlog-cover-bg {
-    height: 190px;
-}
 .vlog-featured-6 .vlog-cover-bg a img {
     max-width: 1140px;
     opacity: 0.7;
@@ -4746,8 +4743,8 @@ body .widget .mejs-container .mejs-controls .mejs-button button {
 }
 
 @media (max-width: 767px) {
-    .vlog-featured-6 .vlog-format-action img {
-
+    .vlog-featured-6 .vlog-cover-bg {
+        height: 190px;
     }
     .vlog-featured-info-6 {
         width: 100%;
